@@ -1,0 +1,53 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
+plugins {
+    id 'org.springframework.boot' version '2.7.11'
+    id 'io.spring.dependency-management' version '1.1.4'
+    id 'org.jetbrains.kotlin.jvm' version '1.8.22'
+    id 'org.jetbrains.kotlin.plugin.spring' version '1.8.22'
+}
+
+group = 'com.alico.chat.app'
+version = '0.0.1'
+
+java {
+    sourceCompatibility = '17'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.jetbrains.kotlin:kotlin-reflect'
+    implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-mail'
+    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'cn.hutool:hutool-all:5.8.11'
+    implementation 'com.baomidou:mybatis-plus-boot-starter:3.5.5'
+    implementation 'org.projectlombok:lombok:1.18.30'
+    implementation 'mysql:mysql-connector-java:8.0.28'
+    implementation 'com.auth0:java-jwt:4.4.0'
+    implementation 'com.aliyun:sts20150401:1.1.4'
+//    implementation 'com.alibaba.cloud:aliyun-oss-spring-boot-starter:1.0.0'
+    implementation 'com.alibaba.cloud:spring-cloud-starter-alicloud-oss:2.1.0.RELEASE'
+//    implementation 'com.aliyun:aliyun-java-sdk-core:4.4.5'
+//    implementation 'com.aliyun.oss:aliyun-sdk-oss:3.17.2'
+}
+
+tasks.withType(KotlinCompile) {
+    kotlinOptions {
+        freeCompilerArgs += '-Xjsr305=strict'
+        jvmTarget = '17'
+    }
+}
+
+tasks.named('bootBuildImage') {
+    builder = 'paketobuildpacks/builder-jammy-base:latest'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
