@@ -1,7 +1,21 @@
 # AlicoChat
 一个完整开源社交项目，包含Flutter客户端、后台管理、服务端
 
-##### 当前还处于初始版本部署及相关文档待补充
+## 客户端部分截图
+| 用户列表 | 用户详情 | 聊天页 |
+|:-:|:-:|:-:|
+| <img src="https://github.com/ven-coder/alico-chat/blob/master/images/1.jpg" width=250/> | <img src="https://github.com/ven-coder/alico-chat/blob/master/images/2.jpg" width=250/> | <img src="https://github.com/ven-coder/alico-chat/blob/master/images/3.jpg" width=250/> |
+| 动态列表 | 动态详情 | 个人中心 |
+| <img src="https://github.com/ven-coder/alico-chat/blob/master/images/4.jpg" width=250/> | <img src="https://github.com/ven-coder/alico-chat/blob/master/images/6.jpg" width=250/> | <img src="https://github.com/ven-coder/alico-chat/blob/master/images/5.jpg" width=250/> |
+
+## 后台管理部分截图
+| 用户列表 |
+|:-:|
+| <img src="https://github.com/ven-coder/alico-chat/blob/master/images/admin_1.jpg" width=1000/> |
+| 用户管理 | 
+| <img src="https://github.com/ven-coder/alico-chat/blob/master/images/admin_1.jpg" width=1000/> |
+
+#### 当前还处于初始版本部署及相关文档待补充
 ### 交流群
 <img src="https://github.com/ven-coder/alico-chat/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240411215033.jpg" width=200/>
 
