@@ -15,6 +15,13 @@
 | 用户管理 | 
 | <img src="https://github.com/ven-coder/alico-chat/blob/master/images/admin_1.jpg" width=1000/> |
 
+## 快速体验
+Android安装包
+| - |
+| <img src="https://github.com/ven-coder/alico-chat/blob/master/images/1712880155578.jpg" width=250/> |
+
+后台管理地址：[http://45.207.38.130/#/login](http://45.207.38.130/#/login)
+
 #### 当前还处于初始版本部署及相关文档待补充
 ### 交流群
 <img src="https://github.com/ven-coder/alico-chat/blob/master/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240411215033.jpg" width=200/>
