@@ -25,7 +25,7 @@ Android安装包
 #### 当前还处于初始版本部署及相关文档待补充
 |交流群|联系作者|
 | - | - |
-|<img src="https://github.com/ven-coder/alico-chat/blob/master/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240419205004.jpg" width=200/>|<img src="https://github.com/ven-coder/alico-chat/blob/master/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20240411224006.jpg" width=200/>
+|<img src="https://github.com/user-attachments/assets/0d37a9ad-3fe1-4cc3-bbd8-da786830e032" width=200/>|<img src="https://github.com/user-attachments/assets/b528c7d1-d5e8-48bd-b289-e082e7ef9271" width=200/>
 
 # License
 [MIT License](https://github.com/ven-coder/alico-chat/tree/master?tab=MIT-1-ov-file)
